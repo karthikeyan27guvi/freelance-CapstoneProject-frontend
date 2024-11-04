@@ -37,7 +37,16 @@
           textarea {
             padding: 20px;
           }
-  
+          .images{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .imagesInputs{
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+            }
+          }
           button {
             border: none;
             padding: 20px;
@@ -46,6 +55,33 @@
             font-size: 18px;
             background-color: #1dbf73;
             cursor: pointer;
+          }
+          .add-form{
+            display: flex;
+            justify-content: space-between; 
+            gap: 10px; 
+          }
+          .add-input{
+            width: 100%;
+          }
+          .add-btn{
+            width: 20%;
+            
+          }
+          .addedFeatures{
+            display: flex;
+            gap: 20px;
+            button{
+              height: 30px;
+              font-size: 12px;
+              font-weight: 400;
+              background-color: transparent;
+              color: red;
+              border: 1px solid red;
+              display: flex;
+              align-items: center;
+              gap: 20px;
+            }
           }
         }
       }

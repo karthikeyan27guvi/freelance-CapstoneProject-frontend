@@ -10,6 +10,9 @@
       .title {
         display: flex;
         justify-content: space-between;
+        .orders-title{
+          font-size: 34px;
+        }
   
         button {
           background-color: #1dbf73;

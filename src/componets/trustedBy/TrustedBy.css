@@ -1,5 +1,6 @@
 .trustedBy{
-    background-color: #3c3c3b;
+    background: linear-gradient(to right, #434343, #585757);
+
     height: 100px;
     display: flex;
     justify-content: center;

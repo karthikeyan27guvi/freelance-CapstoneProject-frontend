@@ -1,58 +1,79 @@
+/* Container for the login form */
 .login {
-    /* Center the login form horizontally and vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0; /* light gray background */
-  }
-  .login-form{
-    border: 1px solid rgb(154, 150, 150);
-    padding: 40px 30px;
-    border-radius: 15px;
-  }
-  
-  .login-heading {
-    /* Style the form header */
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .user-login {
-    /* Style the labels */
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .login-input{
-    /* Style the input fields */
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .login-input:focus{
-    /* Style the input fields on focus */
-    border-color: #aaa;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .login-btn{
-    /* Style the submit button */
-    background-color: #4CAF50; /* green background */
-    color: #fff;
-    width: 100%;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .login-btn:hover {
-    /* Style the submit button on hover */
-    background-color: #3e8e41; /* darker green background */
-  }
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #f7f7f7, #e0e0e0);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.login:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form title styling */
+.login-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Label for inputs */
+.user-login {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+}
+
+/* Input field styling */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #0066cc;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 102, 204, 0.4);
+}
+
+/* Button styling */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #0066cc, #003399);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #003399, #001f66);
+  transform: translateY(-3px);
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+}

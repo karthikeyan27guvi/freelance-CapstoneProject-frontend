@@ -1,8 +1,9 @@
 .gig-card{
     width: 324px;
-    height: 370px;
+    height: 420px;
     border: 1px solid rgb(244, 244, 244);
     margin-bottom: 25px;
+    
 }
 
 .gigCard-img{
@@ -16,22 +17,26 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
 }
 
 .gigCard-user{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .gigCard-user-img{
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
+
 .gigCard-desc{
-    color: #111;
+    color: #616161;
+    max-height: 50px;
+    overflow: hidden;
 }
 
 .gigCard-star{
@@ -57,7 +62,7 @@
 }
 
 .gigCard-details{
-    padding: 10px 20px;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -28,7 +28,10 @@
     gap: 20px;
 }
 
-
+.footer-heading{
+    align-self: flex-start;
+    color: #999
+}
 .social-content{
     font-weight: 300;
 }

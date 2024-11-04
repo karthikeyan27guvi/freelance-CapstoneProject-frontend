@@ -68,7 +68,6 @@ const Home = () => {
             <img className='.png-img' src="./img/check.png" alt="" />
             Manage teamwork and boost productivity with one powerful workplace
           </div>
-          <button className='explore-btn'>Click here to explore</button>
           </div>
           <div className="item">
             <img className='home2img' src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/d85c8f7113e7f18d6fca144840de5afa-1718619183018/X1.png" alt="" />

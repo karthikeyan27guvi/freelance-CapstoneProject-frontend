@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #013914;
+    background: linear-gradient(to right, #8198ed, #a155e3);
+
     color: white;
     transition: 0.5s all ease;
     position: sticky;
@@ -15,7 +16,6 @@
 }
 .navcontainer{
     width: 1400px;
-    
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
@@ -70,13 +70,12 @@
         
 .nav-btn{
     color: white;
-    padding: 20px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: 1px solid white;
     cursor: pointer;
-    background-color: transparent;    
-}
-    
+    background-color: transparent;       
+}   
 .nav-btn:hover{
     background-color: #0dbf73;
     border-color: #0dbf73;
@@ -94,6 +93,6 @@ hr{
     display: flex;
     justify-content: space-between;
     font-weight: 100;
-    color: grey;
+    color: rgb(21, 21, 21);
     font-family: sans-serif;
 }

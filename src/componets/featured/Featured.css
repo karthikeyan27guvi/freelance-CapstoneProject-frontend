@@ -2,7 +2,8 @@
     height: 600px;
     display: flex;
     justify-content: center;
-    background-color: #013914;
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+
     color: white;
 }
 
@@ -67,8 +68,8 @@
     color: #fff;
     background-color: transparent;
     border: 1px solid white;
-    padding: 5px 10px;
-    border-radius: 20px;
+    padding: 5px 10px; 
+    border-radius: 20px; 
     font-size: 14px;
     cursor: pointer;
 }

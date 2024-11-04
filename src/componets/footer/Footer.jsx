@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="top">
           <div className="top-item">
-            <h2>Categories</h2>
+            <h2 className='footer-heading'>Categories</h2>
             <span className='social-content' >Graphics & Design</span>
             <span className='social-content' >Digital Marketing</span>
             <span className='social-content' >Writing & Translation</span>
@@ -21,7 +21,7 @@ const Footer = () => {
             <span className='social-content' >Sitemap</span>
           </div>
           <div className="top-item">
-            <h2>About</h2>
+            <h2 className='footer-heading'>About</h2>
             <span className='social-content' >Press & News</span>
             <span className='social-content' >Partnership</span>
             <span className='social-content' >Privacy Policy</span>
@@ -35,7 +35,7 @@ const Footer = () => {
             <span className='social-content' ></span>
           </div>
           <div className="top-item">
-            <h2>Support</h2>
+            <h2 className='footer-heading'>Support</h2>
             <span className='social-content' >Help & Support</span>
             <span className='social-content' >Trust & Safety</span>
             <span className='social-content' >Selling on Quora</span>
@@ -49,7 +49,7 @@ const Footer = () => {
             <span className='social-content' ></span>
           </div>
           <div className="top-item">
-            <h2>Community</h2>
+            <h2 className='footer-heading'>Community</h2>
             <span className='social-content' >Customer Success Stories</span>
             <span className='social-content' >Community Hub</span>
             <span className='social-content' >Forum</span>
@@ -63,7 +63,7 @@ const Footer = () => {
             <span className='social-content' >Community Standards</span>
           </div>
           <div className="top-item">
-            <h2>More From Indeed</h2>
+            <h2 className='footer-heading'>More From Indeed</h2>
             <span className='social-content' >Indeed Business</span>
             <span className='social-content' >Indeed Pro</span>
             <span className='social-content' >Indeed Logo Maker</span>
