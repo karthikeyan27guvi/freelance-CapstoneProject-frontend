@@ -1,6 +1,8 @@
 import React from "react";
 import "./Gig.css";
-import { Slider } from "infinite-react-carousel";
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Link, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import newRequest from "../../utils/newRequest";
@@ -33,6 +35,13 @@ function Gig() {
       }),
       enabled: !!userId,
   });
+
+  const settings = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    arrows: true,
+  };
 
   return (
     <div className="gig">
@@ -69,7 +78,7 @@ function Gig() {
           )}
           </div>
         )}
-          <Slider slidesToShow={1} arrowsScroll={1} className="slide-container">
+          <Slider {...settings} className="slide-container">
             {data.images.map((img)=>(
               <img className="gigimg" key={img} src={img} alt="" />
             ))}

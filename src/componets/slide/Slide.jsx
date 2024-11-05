@@ -1,13 +1,20 @@
 import React from 'react'
 import "./Slide.css";
-import Slider from 'infinite-react-carousel';  // Importing the infinite-react-carousel component for creating a slider
-
+import Slider from 'react-slick';  // Importing the infinite-react-carousel component for creating a slider
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Slide = ({children,slidesToShow,arrowsScroll}) => {  // Slide component takes children, slidesToShow, and arrowsScroll as props
-  return <>
+  const settings = {
+    slidesToShow: slidesToShow,
+    slidesToScroll: arrowsScroll,
+    infinite: true,
+    arrows: true,
+  };
+  return <> 
   <div className="slide">
     <div className="slide-container">
-    <Slider slidesToShow = {slidesToShow} arrowsScroll ={arrowsScroll} >
+    <Slider {...settings} >
       {children}  
     </Slider>
     </div>
