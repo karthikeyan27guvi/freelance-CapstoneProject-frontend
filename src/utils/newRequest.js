@@ -6,4 +6,4 @@ const newRequest = axios.create({
     withCredentials: true,  // Enabling the inclusion of credentials (like cookies) in cross-site requests
 });
 
-export default newRequest;
+export default newRequest;  
