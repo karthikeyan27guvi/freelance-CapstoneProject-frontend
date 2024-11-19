@@ -19,7 +19,7 @@ function Login() {
       localStorage.setItem("accessToken", res.data.accessToken);
 
       // Optionally save the user info in localStorage for future reference
-      localStorage.setItem("currentUser", JSON.stringify(res.data));
+      localStorage.setItem("currentUser", JSON.stringify(res.data.user));
 
       navigate("/");
     } catch (err) {
