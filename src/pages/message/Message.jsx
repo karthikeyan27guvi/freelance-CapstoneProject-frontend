@@ -55,7 +55,7 @@ const Message = () => {
 
             <div className={m.userId === currentUser._id ? "owner item" : "item"} key={m._id}>
             <img
-              src={m.img}
+              src={m.img || "/img/noavatar.jpg"}
               alt=""
               />
             <p>
